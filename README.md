@@ -38,9 +38,11 @@
 1. Statistical summary (full table in Jupyter notebook)
    <img src = "images/statistics.JPG" >
 2. Distribution of each attribute value (more plots in Jupyter notebook)
-   * <img src = "images/balance.JPG" >
-   * <img src = "images/purchases.JPG" >
-   * <img src = "images/purchase_frequency.JPG" >
+   <img src = "images/distribution.JPG" >
+   <img src = "images/balance.JPG" >
+   <img src = "images/purchases.JPG" >
+   <img src = "images/purchase_frequency.JPG" >
+3. Correlation coefficients matrix
 
 
 
