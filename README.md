@@ -24,7 +24,7 @@
 
 * [Source:Kaggle Credit Card Dataset](https://www.kaggle.com/arjunbhasin2013/ccdata)
 * The sample Dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months
-* The file is at a customer level with 18 behavioral variables.
+* The data is at a customer level with 18 behavioral variables.
 
 
 ## Procedures
@@ -34,13 +34,13 @@
 3. Data visualization and exploration
 4. Use K-means to group observations with similar attribute values
 
-## Findings (full charts and tables can be found in Jupyter notebook)
+## Findings 
 1. Statistical summary (full table in Jupyter notebook)
-   <img src = "images/segmentation.JPG" >
+   <img src = "images/statistics.JPG" >
 2. Distribution of each attribute value (more plots in Jupyter notebook)
-   <img src = "images/balance.JPG" >
-   <img src = "images/purchases.JPG" >
-   <img src = "images/purchase_frequency.JPG" >
+   * <img src = "images/balance.JPG" >
+   * <img src = "images/purchases.JPG" >
+   * <img src = "images/purchase_frequency.JPG" >
 
 
 
