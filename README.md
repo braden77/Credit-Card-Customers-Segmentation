@@ -25,6 +25,27 @@
 * [Source:Kaggle Credit Card Dataset](https://www.kaggle.com/arjunbhasin2013/ccdata)
 * The sample Dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months
 * The file is at a customer level with 18 behavioral variables.
+
+
+## Procedures
+
+1. Import Python libraries and dataset
+2. Data cleaning 
+3. Data visualization and exploration
+4. Use K-means to group observations with similar attribute values
+
+## Findings (full charts and tables can be found in Jupyter notebook)
+1. Statistical summary (full table in Jupyter notebook)
+   <img src = "images/segmentation.JPG" >
+2. Distribution of each attribute value (more plots in Jupyter notebook)
+   <img src = "images/balance.JPG" >
+   <img src = "images/purchases.JPG" >
+   <img src = "images/purchase_frequency.JPG" >
+
+
+
+
+### Raw Data Explanation
 * CUSTID : Identification of Credit Card holder (Categorical)
 * BALANCE : Balance amount left in their account to make purchases
 * BALANCEFREQUENCY : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated)
@@ -44,17 +65,7 @@
 * PRCFULLPAYMENT : Percent of full payment paid by user
 * TENURE : Tenure of credit card service for user
 
-## Procedures
-
-1. Import Python libraries and dataset
-2. Data cleaning 
-3. Data visualization and exploration
-4. Use K-means to group observations with similar attribute values
-
-## Findings
-
 ## References
-
 * [Market Segmentation from Wikipedia](https://en.wikipedia.org/wiki/Market_segmentation)
 * [New frontiers in credit card segmentation: Tapping unmet consumer needs](https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/Financial%20Services/Latest%20thinking/Payments/MoP19_New%20frontiers%20in%20credit%20card%20segmentation.ashx) 
 * [AI meets marketing segmentation models](https://towardsdatascience.com/data-science-powered-segmentation-models-ae89f9bd405f)
