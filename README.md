@@ -37,15 +37,22 @@
 ## Findings 
 1. Statistical summary (full table in Jupyter notebook)
    <img src = "images/statistics.JPG" >
-2. Distribution of each attribute value (more plots in Jupyter notebook)
+2. Distribution of each attribute value 
    <img src = "images/distribution.png" >
-   <img src = "images/balance.JPG" >
-   <img src = "images/purchases.JPG" >
-   <img src = "images/purchase_frequency.JPG" >
 3. Correlation coefficients matrix
-
-
-
+  * 3 paris of strong correlation
+  * "PURCHASES" and "ONEOFF_PURCHASES" -- 0.92
+  * "PURCHASES_FREQUENCY" and 'PURCHASES_INSTALLMENT_FREQUENCY' --0.86
+  * "CASH_ADVANCE_TRX" and "CASH_ADVANCE_FREQUENCY" --0.8
+  <img src = "images/correlation.png" >
+4. Divide customres into 8 clusters according to "Elblow Method"
+  <img src = "images/elbow.png" >
+5. Statistical summary for each cluster (full table in Jupyter notebook)
+    <img src = "images/clusters.JPG" >
+6. Visualizations of attributes for each cluster
+    <img src = "images/cluster_plot.png" >
+7. Visualize the clusters in 2-axies plane
+    <img src = "images/2_axes_plane.png" >
 
 ### Raw Data Explanation
 * CUSTID : Identification of Credit Card holder (Categorical)
