@@ -3,11 +3,6 @@
 
 ## About The Project
 
-### Goals
-
-* Develop a customer segmentation to define strategy for credit card marketing campaign through K-Means clustering
-* Divide customers into at least 3 distinctive groups
-
 ### Background
 
 * One of the key pain points for marketers is to know their customers and identify their needs
@@ -16,18 +11,22 @@
 
 * <img src = "images/segmentation.JPG" >
 
-### Built With
-
-* Python, Pandas, Numpy, Seaborn, Matplotlib, Sklean
-* K-Means Clustering
-* Jupyter Notebook
-
 ### Dataset
 
 * [Source:Kaggle Credit Card Dataset](https://www.kaggle.com/arjunbhasin2013/ccdata)
 * The sample Dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months
 * The data is at a customer level with 18 behavioral variables.
 
+### Goals
+
+* Develop a customer segmentation to define strategy for credit card marketing campaign through K-Means clustering
+* Divide customers into at least 3 distinctive groups
+
+### Built With
+
+* Python, Pandas, Numpy, Seaborn, Matplotlib, Sklean
+* K-Means Clustering
+* Jupyter Notebook
 
 ## Procedures
 
