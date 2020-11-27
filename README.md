@@ -48,8 +48,12 @@
 4. Divide customres into 8 clusters according to "Elblow Method"
   <img src = "images/elbow.png" >
 5. Statistical summary for each cluster (full table in Jupyter notebook)
-    <img src = "images/clusters.JPG" >
-6. Visualizations of attributes for each cluster
+  <img src = "images/clusters.JPG" >
+  * Credit card issuers usually have more interest in "Transactors" and "Revolvers"
+  * Cluster 6 belongs to "Transactors": Those are customers who pay least amount of intrerest charges and careful with their money, Cluster with lowest balance ($104) and cash advance ($303), Percentage of full payment = 23%
+  * Cluster 0 belongs to "Revolvers" who use credit card as a loan (most lucrative sector): high balance (~$5000) and cash advance (~$5000), low purchase frequency, high cash advance frequency (0.52), high cash advance transactions (16) and low percentage of full payment (3.8%)
+
+6. Visualizations of balance distribution for each cluster (distribution for other attributes can be found in Jupyter notebook)
     <img src = "images/cluster_plot.png" >
 7. Visualize the clusters in 2-axies plane
     <img src = "images/2_axes_plane.png" >
