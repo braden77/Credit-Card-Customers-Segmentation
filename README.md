@@ -9,8 +9,6 @@
 
 * By understanding the customers, marketers can launch a tagreted marketing campaign that is tailored for specific needs 
 
-* <img src = "images/segmentation.JPG" >
-
 ### Dataset
 
 * [Source:Kaggle Credit Card Dataset](https://www.kaggle.com/arjunbhasin2013/ccdata)
@@ -19,8 +17,10 @@
 
 ### Goals
 
+* Analyze and visualize credit card spending & paying data
 * Develop a customer segmentation to define strategy for credit card marketing campaign through K-Means clustering
 * Divide customers into at least 3 distinctive groups
+* <img src = "images/segmentation.JPG" 
 
 ### Built With
 
