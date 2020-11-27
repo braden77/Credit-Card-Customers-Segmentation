@@ -11,7 +11,9 @@
 ### Background
 
 * One of the key pain points for marketers is to know their customers and identify their needs
+
 * By understanding the customers, marketers can launch a tagreted marketing campaign that is tailored for specific needs 
+
 * <img src = "images/segmentation.JPG" >
 
 ### Built With
@@ -35,30 +37,36 @@
 4. Use K-means to group observations with similar attribute values
 
 ## Findings 
-1. Statistical summary (full table in Jupyter notebook)
+### 1. Statistical summary (full table in Jupyter notebook)
    <img src = "images/statistics.JPG" >
-2. Distribution of each attribute value 
+
+### 2. Distribution of each attribute value 
    <img src = "images/distribution.png" >
-3. Correlation coefficients matrix
+
+### 3. Correlation coefficients matrix
   * 3 paris of strong correlation
   * "PURCHASES" and "ONEOFF_PURCHASES" -- 0.92
   * "PURCHASES_FREQUENCY" and 'PURCHASES_INSTALLMENT_FREQUENCY' --0.86
   * "CASH_ADVANCE_TRX" and "CASH_ADVANCE_FREQUENCY" --0.8
   <img src = "images/correlation.png" >
-4. Divide customres into 8 clusters according to "Elblow Method"
+
+### 4. Divide customres into 8 clusters according to "Elblow Method"
   <img src = "images/elbow.png" >
-5. Statistical summary for each cluster (full table in Jupyter notebook)
+
+### 5. Statistical summary for each cluster (full table in Jupyter notebook)
   <img src = "images/clusters.JPG" >
+  
   * Credit card issuers usually have more interest in "Transactors" and "Revolvers"
   * Cluster 6 belongs to "Transactors": Those are customers who pay least amount of intrerest charges and careful with their money, Cluster with lowest balance ($104) and cash advance ($303), Percentage of full payment = 23%
   * Cluster 0 belongs to "Revolvers" who use credit card as a loan (most lucrative sector): high balance (~$5000) and cash advance (~$5000), low purchase frequency, high cash advance frequency (0.52), high cash advance transactions (16) and low percentage of full payment (3.8%)
 
-6. Visualizations of balance distribution for each cluster (distribution for other attributes can be found in Jupyter notebook)
+### 6. Visualizations of balance distribution for each cluster (distribution for other attributes can be found in Jupyter notebook)
     <img src = "images/cluster_plot.png" >
-7. Visualize the clusters in 2-axies plane
+
+### 7. Visualize the clusters in 2-axies plane
     <img src = "images/2_axes_plane.png" >
 
-### Raw Data Explanation
+## Raw Data Explanation
 * CUSTID : Identification of Credit Card holder (Categorical)
 * BALANCE : Balance amount left in their account to make purchases
 * BALANCEFREQUENCY : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated)
