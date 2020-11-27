@@ -20,7 +20,8 @@
 * Analyze and visualize credit card spending & paying data
 * Develop a customer segmentation to define strategy for credit card marketing campaign through K-Means clustering
 * Divide customers into at least 3 distinctive groups
-* <img src = "images/segmentation.JPG" 
+
+* <img src = "images/segmentation.JPG">
 
 ### Built With
 
